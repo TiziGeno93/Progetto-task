@@ -24,16 +24,16 @@ Task Manager è un'applicazione web full stack che permette agli utenti di regis
 
 ## Configurare il back-end
 
-### 1) Naviga nella cartella server
-### 2) Installa le dipendenze: npm install
-### 3) Configura il file .env: Modifica il file .env aggiornando le variabili con i tuoi dati.
-### 4) Avvia il back-end: npm run dev (se si vuole usufruire di nodemon) o node server.js.
+- **Naviga nella cartella server**
+- **Installa le dipendenze: npm install**
+- **Configura il file .env: Modifica il file .env aggiornando le variabili con i tuoi dati.**
+- **Avvia il back-end: npm run dev (se si vuole usufruire di nodemon) o node server.js.**
 
 ## Configuarare il front-end
 
-### 1) Naviga nella cartella client
-### 2) Installa le dipendenze: npm install
-### 3) Avvia il front-end: npm run dev
+- **Naviga nella cartella client**
+- **Installa le dipendenze: npm install**
+- **Avvia il front-end: npm run dev**
 
 
  
