@@ -22,5 +22,10 @@ Task Manager è un'applicazione web full stack che permette agli utenti di regis
 
 # Installazione e Configurazione
 
+##Configurare il back-end
+
+### Naviga nella cartella server: cd server
+### Installa le dipendenze: npm install
+
 
  
