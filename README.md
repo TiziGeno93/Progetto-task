@@ -2,15 +2,15 @@
 
 Task Manager è un'applicazione web full stack che permette agli utenti di registrarsi, effettuare il login e gestire le proprie task personali. L'app consente di aggiungere, eliminare e contrassegnare le task come completate, e offre anche funzionalità di ordinamento e filtraggio per una migliore gestione.
 
-# Tecnologie Utilizzate
+## Tecnologie Utilizzate
 
-# Front-end
+### Front-end
 - **React** 
 - **Axios**
 - **react-router-dom** 
 - **CSS Vanilla** 
 
-# Back-end
+### Back-end
 - **Node.js** con **Express** 
 - **MongoDB** 
 - **Mongoose** per la gestione dei modelli e delle operazioni sul database
