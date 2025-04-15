@@ -3,7 +3,7 @@ const router = express.Router();
 const Task = require("../models/Task");
 const auth = require("../middleware/auth");
 
-// Ottieni tutte le task per l'utente autenticato
+// Ottiene tutte le task per l'utente autenticato
 router.get("/", auth, async (req, res) => {
   try {
     const tasks = await Task.find({ user: req.user.userId });
