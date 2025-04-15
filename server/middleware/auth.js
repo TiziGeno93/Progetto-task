@@ -2,7 +2,7 @@
 const jwt = require("jsonwebtoken");
 
 module.exports = function (req, res, next) {
-  // Qui recupero il token dall'header della richiesta, se non esiste (?) quindi undefined o null, non cercherà di usare la funzione split.
+  // Qui recupero il token dall'header della richiesta
   const token = req.header("Authorization")?.split(" ")[1];
   //
   if (!token) {
