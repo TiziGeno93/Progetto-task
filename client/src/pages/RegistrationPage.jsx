@@ -23,6 +23,7 @@ function RegistrationPage() {
     }
     try {
       const response = await API.post("/auth/register", { username, password });
+      // Estraggo il token dalla response
       const token = response.data.token;
       setToken(token);
       navigate("/tasks");
